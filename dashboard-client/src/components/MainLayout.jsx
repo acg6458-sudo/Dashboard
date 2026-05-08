@@ -275,11 +275,9 @@ function MainLayout({ children }) {
         onClose={() => setDrawerVisible(false)}
         open={drawerVisible}
         width={280}
-        bodyStyle={{ padding: 0, background: '#001529' }}
-        headerStyle={{ background: '#001529', borderBottom: '1px solid #333' }}
         styles={{
-          header: { color: 'white' },
-          body: { padding: 0 }
+          header: { background: '#001529', borderBottom: '1px solid #333', color: 'white' },
+          body: { padding: 0, background: '#001529' }
         }}
       >
         <div style={{
